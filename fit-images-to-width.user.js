@@ -11,8 +11,8 @@
 (function () {
   'use strict';
 
-  const SAFE_MARGIN = 32;    // запас, чтобы горизонтальный скролл не появился
-  const DEBOUNCE_MS = 250;   // задержка для дебаунса, чтобы не было "прыжков"
+  const SAFE_MARGIN = 32;    // buffer to prevent horizontal scroll from appearing
+  const DEBOUNCE_MS = 250;   // debounce delay to avoid "jumps"
   const PROPS = ['maxWidth', 'width', 'height', 'boxSizing', 'transition'];
 
   function getVW() {
