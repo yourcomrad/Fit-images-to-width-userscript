@@ -1,7 +1,9 @@
 // ==UserScript==
-// @name         Click-check-and-resize-images
+// @name         Fit Images to Width
+// @description  Resize zoomed images to fit screen width without horizontal scroll
 // @namespace    http://tampermonkey.net/
 // @version      0.8
+// @license      MIT
 // @match        *://*/*
 // @grant        none
 // ==/UserScript==
